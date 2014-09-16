@@ -10,15 +10,20 @@ import java.util.regex.*;
 
 public class UtopianTree {
     public static void main(String[] args) {
+        long start = System.currentTimeMillis();
         Scanner input = new Scanner(System.in);
         int numberOfTestCases = input.nextInt();
+        ArrayList<Integer> order = new ArrayList<Integer>(numberOfTestCases);
         int previousKey = -1;
         int previousValue = 0;
+        int cycleNumber = 0;
 
         Map<Integer, Integer> testCases = new TreeMap<Integer, Integer>();
 
         for (int i = 0; i < numberOfTestCases; i++) {
-            testCases.put(input.nextInt(), 1);
+            int numberOfCycles = input.nextInt();
+            testCases.put(numberOfCycles, 1);
+            order.add(numberOfCycles);
         }
 
         for(Map.Entry<Integer, Integer> entry : testCases.entrySet()) {
@@ -32,19 +37,29 @@ public class UtopianTree {
             else {
                 numberOfCycles = entry.getKey() - previousKey;
                 initialHeight = previousValue;
+
             }
 
             for (int i = 0; i < numberOfCycles; i++) {
-                if (numberOfCycles % 2 == 0)
+                if (cycleNumber % 2 == 0)   {
                     initialHeight *= 2;
-                else
+                }
+                else {
                     initialHeight += 1;
+                }
+                cycleNumber++;
             }
 
             entry.setValue(initialHeight);
-            System.out.println(initialHeight);
             previousKey = entry.getKey();
             previousValue = initialHeight;
         }
+
+        for (Integer element : order) {
+            System.out.println(testCases.get(element));
+        }
+
+        long elapsed = System.currentTimeMillis() - start;
+        System.out.println("time: " + elapsed);
     }
 }
