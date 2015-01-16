@@ -4,41 +4,52 @@ import java.util.Scanner;
  * Created by dmanzelmann on 1/13/15.
  */
 public class InsertionSortPart1 {
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int arraySize = input.nextInt();
-        input.nextLine();
-        int[] arrayToSort = new int[arraySize];
+
+
+
+    public static void insertIntoSorted(int[] ar) {
         int v = 0;
+        int j = ar.length-1;
 
-        for (int i = 0; i < arraySize; i++) {
-            arrayToSort[i] = input.nextInt();
-
-            if (i == arraySize - 1)
-                v = arrayToSort[i];
+        for (int i = 0; i < ar.length; i++) {
+            if (i == ar.length-1)
+                v = ar[i];
         }
 
-        int i = arraySize-1;
-
-        while (i > 0 && v <= arrayToSort[i-1]) {
-            //System.out.println("aryToSort[i-1]: " + arrayToSort[i-1]);
-            //System.out.println("i: " + i);
-            if (arrayToSort[i-1] > v)
-                arrayToSort[i] = arrayToSort[i-1];
-            else if (arrayToSort[i-1] < v)
-                arrayToSort[i] = v;
-
-            for (int j = 0; j < arraySize; j++) {
-                System.out.print(arrayToSort[j] + " ");
-            }
-            System.out.println();
-
-            i--;
+        while (j > 0 && less(v, ar[j-1])) {
+            ar[j] = ar[j-1];
+            printArray(ar);
+            j--;
+            System.out.println("j: " + j);
         }
 
-        for (int j = 0; j < arraySize; j++)
-            System.out.print(arrayToSort[j] + " ");
-        System.out.println();
-
+        ar[j] = v;
     }
+
+    private static boolean less(Comparable v, Comparable w) {
+        return (v.compareTo(w) < 0);
+    }
+
+
+    /* Tail starts here */
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int s = in.nextInt();
+        int[] ar = new int[s];
+        for(int i=0;i<s;i++){
+            ar[i]=in.nextInt();
+        }
+        insertIntoSorted(ar);
+        printArray(ar);
+    }
+
+
+    private static void printArray(int[] ar) {
+        for(int n: ar){
+            System.out.print(n+" ");
+        }
+        System.out.println("");
+    }
+
+
 }

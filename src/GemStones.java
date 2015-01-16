@@ -9,7 +9,7 @@ import java.util.regex.*;
 
 public class GemStones {
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named InsertionSortPart1. */
         Scanner input = new Scanner(System.in);
         Set<Character> gems = new HashSet<Character>();
 

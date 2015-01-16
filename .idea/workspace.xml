@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74ba8fc3-d837-4233-ba3b-fe5cb7775085" name="Default" comment="" />
+    <list default="true" id="74ba8fc3-d837-4233-ba3b-fe5cb7775085" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/InsertionSortInvariant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GemStones.java" afterPath="$PROJECT_DIR$/src/GemStones.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/InsertionSortPart1.java" afterPath="$PROJECT_DIR$/src/InsertionSortPart1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="HackerRank.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,14 +70,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GemStones.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GemStones.java">
+      <file leaf-file-name="InsertionSortPart1.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InsertionSortPart1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="26" selection-start="707" selection-end="707" vertical-scroll-proportion="0.66775775" vertical-offset="0" max-vertical-offset="918">
+            <state line="34" column="28" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1037">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertionSortPart2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InsertionSortPart2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="73" selection-end="901" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertionSortInvariant.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InsertionSortInvariant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="44" selection-start="619" selection-end="619" vertical-scroll-proportion="0.7234042" vertical-offset="0" max-vertical-offset="697">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#430#441#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +113,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/GemStones.java" />
+        <option value="$PROJECT_DIR$/src/UtopianTree.java" />
+        <option value="$PROJECT_DIR$/src/compareUtopianTree.java" />
+        <option value="$PROJECT_DIR$/src/InsertionSortPart1.java" />
+        <option value="$PROJECT_DIR$/src/InsertionSortPart2.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/InsertionSortInvariant.java" />
       </list>
     </option>
   </component>
@@ -126,6 +154,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,7 +190,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,10 +207,75 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.GemStones">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="false" name="GemStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GemStones" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HackerRank" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="compareUtopianTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compareUtopianTree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HackerRank" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InsertionSortPart1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertionSortPart1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HackerRank" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InsertionSortPart2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertionSortPart2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HackerRank" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -324,12 +417,37 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.GemStones" />
+    <configuration default="false" name="UtopianTree" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UtopianTree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="HackerRank" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.UtopianTree" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GemStones" />
+      <item index="2" class="java.lang.String" itemvalue="Application.compareUtopianTree" />
+      <item index="3" class="java.lang.String" itemvalue="Application.InsertionSortPart1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.InsertionSortPart2" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.GemStones" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Solution" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InsertionSortPart2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.InsertionSortPart1" />
+        <item index="3" class="java.lang.String" itemvalue="Application.compareUtopianTree" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GemStones" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -365,34 +483,50 @@
       <created>1410553005464</created>
       <updated>1410553005464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Utopian Tree:&#10;Mostly done. But it is off on Input:&#10;2&#10;3&#10;4&#10;&#10;with output:&#10;4&#10;5 &#10;(should be 6, 7)&#10;">
+      <created>1410814169232</created>
+      <updated>1410814169232</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed&#10;&#10;-Had to track the state of cycles&#10;-Had to add ArrayList due to out of order input">
+      <created>1410896317288</created>
+      <updated>1410896317288</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Insertion Sort Part 1">
+      <created>1421185789776</created>
+      <updated>1421185789776</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Insertion Sort Part 2&#10;">
+      <created>1421272274123</created>
+      <updated>1421272274123</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947367" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -410,7 +544,11 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Gem Stones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gem Stones" />
+    <MESSAGE value="Utopian Tree:&#10;Mostly done. But it is off on Input:&#10;2&#10;3&#10;4&#10;&#10;with output:&#10;4&#10;5 &#10;(should be 6, 7)&#10;" />
+    <MESSAGE value="Fixed&#10;&#10;-Had to track the state of cycles&#10;-Had to add ArrayList due to out of order input" />
+    <MESSAGE value="Insertion Sort Part 1" />
+    <MESSAGE value="Insertion Sort Part 2&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insertion Sort Part 2&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -420,13 +558,120 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/InsertionSortPart1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="28" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InsertionSortPart2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="73" selection-end="901" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InsertionSortPart1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="28" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InsertionSortPart2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InsertionSortPart1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="152" selection-end="1186" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GemStones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="707" selection-end="707" vertical-scroll-proportion="0.66775775" vertical-offset="0" max-vertical-offset="918">
+        <state line="24" column="26" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UtopianTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GemStones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="26" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UtopianTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GemStones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="26" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UtopianTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GemStones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="26" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UtopianTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="53" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GemStones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="26" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compareUtopianTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="419" selection-end="419" vertical-scroll-proportion="0.31277058" vertical-offset="0" max-vertical-offset="924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UtopianTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GemStones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="26" selection-start="707" selection-end="707" vertical-scroll-proportion="0.33116883" vertical-offset="0" max-vertical-offset="924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InsertionSortPart1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="28" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InsertionSortPart2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="73" selection-end="901" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InsertionSortInvariant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="44" selection-start="619" selection-end="619" vertical-scroll-proportion="0.7234042" vertical-offset="0" max-vertical-offset="697">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#430#441#0" expanded="true" />
           </folding>
         </state>
       </provider>
